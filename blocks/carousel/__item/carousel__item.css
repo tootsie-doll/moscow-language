@@ -1,0 +1,7 @@
+.carousel__item {
+    width: 318px;
+    height: 372px;
+    background: var(--card-gradient);
+    border-radius: 12px;
+    
+}

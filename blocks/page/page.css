@@ -1,0 +1,10 @@
+.page {
+    background-color: var(--main-fon);
+    width: 100%;
+    color: white;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+}

@@ -1,0 +1,13 @@
+.highlighted {
+    max-width: 90%;
+    padding-left: 56px;
+    padding-top: 56px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.4;
+    text-align: left;
+    background: linear-gradient(90.01deg, #518AFA 0.01%, #0FD2FD 52.22%, rgba(19, 244, 109, 0.88) 98.29%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

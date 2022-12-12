@@ -1,0 +1,10 @@
+.illustration__text {
+    position: absolute;
+    left: 100px;
+    top: 230px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 163%;
+    text-align: right;
+    /*color: #FFFFFF;*/
+}
