@@ -1,2 +1,2 @@
 # moscow-language
-# moscow-language
+Небольшой проект о Московском произношении
