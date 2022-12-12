@@ -1,0 +1,7 @@
+.feature__text {
+    position: absolute;
+    width: 300px;
+    top:150px;
+    text-align: center;
+    font-size: 21px;
+}

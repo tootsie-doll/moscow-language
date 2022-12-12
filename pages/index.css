@@ -35,3 +35,14 @@
 @import "../blocks/cow/cow.css";
 @import "../blocks/doggie/doggie.css";
 @import "../blocks/doggie__text/doggie__text.css";
+
+@import "../blocks/feature/feature.css";
+@import "../blocks/feature/__item/feature__item.css";
+@import "../blocks/feature/__image/feature__image.css";
+@import "../blocks/feature/__text/feature__text.css";
+@import "../blocks/feature/__text/_center/feature__text_center.css";
+
+@import "../blocks/after/after.css";
+@import "../blocks/video/video.css";
+
+@import "../blocks/resume/resume.css";
