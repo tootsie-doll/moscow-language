@@ -21,8 +21,8 @@
 
 @import "../blocks/carousel/carousel.css";
 @import "../blocks/carousel/__description/carousel__description.css";
-@import "../blocks/carousel/__image/carousel__image.css";
-@import "../blocks/carousel/__item/carousel__item.css";
+/*@import "../blocks/carousel/__image/carousel__image.css";
+@import "../blocks/carousel/__item/carousel__item.css";*/
 @import "../blocks/carousel/__title/carousel__title.css";
 
 @import "../blocks/pronunciation/pronunciation.css";

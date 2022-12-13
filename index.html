@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="pages/index.css" type="text/css">
   <title>Moscow Language</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" href="slick/slick.css"/>
 </head>
+
 <body class="page">
   <div class="container">
     <header class="header">
@@ -29,25 +33,55 @@
         <p class="highlighted">Например в Московском регионе есть слова, которые используют в три раза больше людей, чем в среднем по стране.
         </p>
       </div>
-      <div class="carousel">
-        <div class="carousel__item">
-          <img src="images/carousel/carousel-coffee.svg" alt="иконка кофе" class="carousel__image">
-          <h3 class="carousel__title">Едальня</h3>
-          <p class="carousel__description">Заведение общепита</p>
-        </div>
-        <div class="carousel__item">
-          <img src="images/carousel/carousel-condo.svg" alt="иконка многоквартирного дома" class="carousel__image">
-          <h3 class="carousel__title">Человейник</h3>
-          <p class="carousel__description">Большой <br>
-            многоквартирный дом</p>
-        </div>
-        <div class="carousel__item">
-          <img src="images/carousel/carousel-distressed.svg" alt="иконка кричащей женщины" class="carousel__image">
-          <h3 class="carousel__title">Отплеваться</h3>
-          <p class="carousel__description">Испытать или выразить
-            крайнее недовольство</p>
+      <div class="content">
+        <div class="carousel lazy">
+          <div class="image">
+            <img src="images/carousel/card-1.png">
+          </div>
+          <div class="image">
+            <img src="images/carousel/card-2.png">
+          </div>
+          <div class="image">
+            <img src="images/carousel/card-3.png">
+          </div>
+          <div class="image">
+            <img src="images/carousel/card-4.png">
+          </div>
+          <div class="image">
+            <img src="images/carousel/card-5.png">
+          </div>
+          <!--<div class="carousel__item image">
+            <img src="images/carousel/carousel-coffee.svg" alt="иконка кофе" class="carousel__image">
+            <h3 class="carousel__title">Едальня</h3>
+            <p class="carousel__description">Заведение общепита</p>
+          </div>
+          <div class="carousel__item image">
+            <img src="images/carousel/carousel-condo.svg" alt="иконка многоквартирного дома" class="carousel__image">
+            <h3 class="carousel__title">Человейник</h3>
+            <p class="carousel__description">Большой <br>
+              многоквартирный дом</p>
+          </div>
+          <div class="carousel__item image">
+            <img src="images/carousel/carousel-distressed.svg" alt="иконка кричащей женщины" class="carousel__image">
+            <h3 class="carousel__title">Отплеваться</h3>
+            <p class="carousel__description">Испытать или выразить
+              крайнее недовольство</p>
+          </div>
+          <div class="carousel__item image">
+            <img src="images/carousel/carousel-condo.svg" alt="иконка многоквартирного дома" class="carousel__image">
+            <h3 class="carousel__title">Человейник</h3>
+            <p class="carousel__description">Большой <br>
+              многоквартирный дом</p>
+          </div>
+          <div class="carousel__item image">
+            <img src="images/carousel/carousel-distressed.svg" alt="иконка кричащей женщины" class="carousel__image">
+            <h3 class="carousel__title">Отплеваться</h3>
+            <p class="carousel__description">Испытать или выразить
+              крайнее недовольство</p>
+          </div>-->
         </div>
       </div>
+
       <div class="pronunciation">
         <h2 class="title title_small">Московское произношение</h2>
         <p class="text text_small">Москвичей и жителей Подмосковья можно узнать по характерному произношению. Если спросить жителей других регионов: «Чем отличается московское произношение от других?», то в ответ, скорее всего, можно услышать: «Много “акают”».
@@ -126,8 +160,19 @@
           </div>
         </div>
       </div>
-
     </main>
   </div>
+  // jquery
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  // slick.min.js
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  $(".lazy").slick({
+    lazyLoad: "ondemand",
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    speed: 500
+  });
+</script>
 </body>
 </html>

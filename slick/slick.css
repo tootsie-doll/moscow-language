@@ -1,0 +1,21 @@
+.content {
+    margin: auto;
+    padding: 0 30px;
+    width: 100%;
+    max-width: 1280px;
+    box-sizing: border-box;
+}
+/*.slick-slide .image {
+    padding: 10px;
+}*/
+.slick-slide img {
+    margin: 0 auto;
+    display: block;
+    width: 95%;
+}
+/*
+.slick-slide img.slick-loading {
+    border: 0;
+}
+*/
+
