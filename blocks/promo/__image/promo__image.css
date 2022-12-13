@@ -1,5 +1,8 @@
 .promo__image {
     margin: 56px auto ;
-    width: 90%;
-    height: auto;
+    transition: 0.3s;
+}
+
+.promo__image:hover {
+    transform: scale(1.1);
 }
