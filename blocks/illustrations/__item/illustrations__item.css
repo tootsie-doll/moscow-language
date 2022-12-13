@@ -1,3 +1,8 @@
 .illustrations__item {
-position: relative;
+    position: relative;
+    margin-right: 100px;
+}
+
+.illustrations__item:last-child {
+    margin-right: 0;
 }

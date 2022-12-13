@@ -1,6 +1,7 @@
 .illustrations {
-    padding-top: 56px;
+    margin: 0 auto;
+    padding-top: 80px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
