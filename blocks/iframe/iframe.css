@@ -1,0 +1,7 @@
+iframe {
+    padding-right: 50px;
+}
+
+iframe:last-child {
+    padding-right: 0;
+}

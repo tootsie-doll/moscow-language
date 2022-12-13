@@ -46,3 +46,13 @@
 @import "../blocks/video/video.css";
 
 @import "../blocks/resume/resume.css";
+
+@import "../blocks/iframe/iframe.css";
+
+@import "../blocks/about/about.css";
+@import "../blocks/about/__item/about__item.css";
+@import "../blocks/about/__list/about__list.css";
+@import "../blocks/about/__image/about__image.css";
+
+@import "../blocks/span/span.css";
+

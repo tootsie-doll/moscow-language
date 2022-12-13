@@ -1,0 +1,9 @@
+.about__item {
+    max-width: 300px;
+    padding-top: 40px;
+    margin-right: 100px;
+}
+
+.about__item:last-child {
+    padding-right: 0;
+}
